@@ -11,7 +11,7 @@ class ServerStats(commands.Cog):
     
     def __init__(self, bot):
         self.bot = bot
-        self.c_name = "📊 | Server Info"
+        self.c_name = "📊 | Server Stats"
         self.db = bot.plugin_db.get_partition(self)
         
     @commands.command() 
