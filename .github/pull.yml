@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: DAzVise:master
+    mergeMethod: hardreset
+  - base: development
+    upstream: DAzVise:development
+    mergeMethod: hardreset
