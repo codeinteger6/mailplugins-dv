@@ -71,7 +71,7 @@ class Report(commands.Cog):
                 name="Reason", value=reason,inline=False)
 
         await setchannel.send(embed=embed)
-        await ctx.send("Succesfully Reported the User!")
+        await ctx.send("Report submitted for mods to review.")
                         
 def setup(bot):
     bot.add_cog(Report(bot))
