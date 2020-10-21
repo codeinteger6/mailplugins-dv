@@ -56,7 +56,7 @@ class Report(commands.Cog):
         embed.add_field(name="Reason", value=reason, inline=False)
 
         await setchannel.send(report_mention, embed=embed)
-        await ctx.send("Report submitted for mods to review.")
+        await ctx.send("Report submitted for mods to review.\nPlease refrain from making duplicate reports.")
                         
 def setup(bot):
     bot.add_cog(Report(bot))
